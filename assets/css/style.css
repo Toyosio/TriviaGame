@@ -1,0 +1,35 @@
+body {
+    background-color: #DC143C;
+}
+
+.question {
+    font-weight: 600px;
+    font-family: 'Sigmar One', cursive;
+    color: #17202A;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+.answers label {
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: #DC143C;
+    background-color: #17202A;
+    font-family: 'Sigmar One', cursive;
+}
+
+p {
+    text-align: center;
+    color: #DC143C;
+    background-color: #17202A;
+    font-family: 'Chelsea Market', cursive;
+}
+
+div.jumbotron {
+    background-color: #17202A;
+}
