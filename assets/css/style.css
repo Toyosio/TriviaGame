@@ -14,10 +14,13 @@ h1 {
 p {
     text-align: center;
     font-family: 'Londrina Solid', cursive;
-    color: #FF0000;
-    font-size:25px;
+    color: #7B7D7D;
+    font-size:30px;
+    background: #17202A
 }
 
-.lead {
-    font-size: 25px;
+h3 {
+    font-family: 'Londrina Solid', cursive;
+    color: #7B7D7D;
+    font-size: 20px;
 }
