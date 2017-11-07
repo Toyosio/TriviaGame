@@ -118,49 +118,47 @@ var questions = [{
 $(document).ready(function () {
 
     //on start button click, start game
-    $("start").on("click", function () {
-
-    })
-
-    }
-
+    $("#start").on("click", start);
 
 
     //(call the display question function)
     //(start the timer)
 
 
+
+
     //when answer button is clicked, display correct answer
 
-});
 
 
-//function to display each question
+
+    //function to display each question
 
 
-//function to check answer and add to count of correct or incorrect answers
+    //function to check answer and add to count of correct or incorrect answers
 
 
-//function to display score in the html
+    //function to display score in the html
 
 
-function start() {
-    if (!timer) {
-        intervalId = setInterval(decrement, 1000);
-        timer = true;
-    }
+    function start() {
+        if (!timer) {
+            intervalId = setInterval(decrement, 1000);
+            timer = true;
+        }
 
-    function stop() {
-        clearInterval(intervalId);
-        timer = false;
-    }
+        function stop() {
+            clearInterval(intervalId);
+            timer = false;
+        }
 
-    function decrement() {
+        function decrement() {
 
-        $("#timer").text("Time Remaining: " + myTimer);
-        myTimer = myTimer - 1;
-        if (myTimer < 1) {
-            //call the function that displays the score
+            $("#timer").text("Time Remaining: " + myTimer);
+            myTimer = myTimer - 1;
+            if (myTimer < 1) {
+                //call the function that displays the score
+            }
         }
     }
-}
+})
