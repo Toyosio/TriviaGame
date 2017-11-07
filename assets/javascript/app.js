@@ -119,6 +119,7 @@ $(document).ready(function () {
 
     //on start button click, start game
     $("#start").on("click", start);
+    })
 
 
     //(call the display question function)
@@ -161,4 +162,3 @@ $(document).ready(function () {
             }
         }
     }
-})
