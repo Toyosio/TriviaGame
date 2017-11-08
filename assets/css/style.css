@@ -11,20 +11,53 @@ h1 {
     color: #FF0000;
 }
 
+h3 {
+    text-align: center;
+    font-family: 'Sigmar One',
+    cursive;
+}
+
 p {
     text-align: center;
     font-family: 'Londrina Solid', cursive;
     color: #7B7D7D;
-    font-size:30px;
-    background: #17202A
+    font-size:25px;
+    background-color: #1B2631
 }
 
 h3 {
     font-family: 'Londrina Solid', cursive;
-    color: #7B7D7D;
-    font-size: 20px;
+    color:#1B2631
+    font-size: 15px;
+}
+
+.q {
+    color: #FF0000;
+    font-family: 'Sigmar One',
+    cursive;
+    font-size: 15px;
+}
+
+.answer {
+     color: #7B7D7D;
+     font-family: 'Londrina Solid',
+     cursive;
+     font-size: 15px
 }
 
 #timer {
     color: #FF0000;
+}
+
+#copyrite {
+    text-align: center;
+    color: #7B7D7D;
+    font-family: 'Londrina Solid',
+     cursive;
+}
+
+#social {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
 }
