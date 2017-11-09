@@ -7,88 +7,88 @@ var questions = [
             b: "<p class='answer'>Bob White</p>",
             c: "<p class='answer'>Al Green</p>",
             d: "<p class='answer'>Martin Goodman</p>",
-            correct: "d"
+            correct: "<p class='correct'>d</p>"
     },
     {
         name: "q1",
-        q: "<p class='q'>Which scientists were Captain American and Bucky attempting to apprehend when Bucky came to his tragic demise?</p>",
-            A: "<p class='answer'>Anton Trojak</p>",
-            B: "<p class='answer'>Jonas Harrow</p>",
-            C: "<p class='answer'>Baron Zemo</p>",
-            D: "<p class='answer'>Arnim Zola</p>",
-            correct: "a"
+        q: "<p class='q'>Who paid Mac Gargan to become the Scorpion?</p>",
+            a: "<p class='answer'>Felicia Hardy</p>",
+            b: "<p class='answer'>The Kingpin</p>",
+            c: "<p class='answer'>Norman Osborn</p>",
+            d: "<p class='answer'>J. Jonah Jameson</p>",
+            correct: "<p class='correct'>d</p>"
     },
     {
         name: "q1",
-        q: "<p class='q'>Where did Black Panther gain his degree in Physics from?",
-            A: "<p class='answer'>UT Austin</p>",
-            B: "<p class='answer'>Oxford</p>",
-            C: "<p class='answer'>Stanford</p>",
-            D: "<p class='answer'>Cambridge</p>",
-            correct: "d"
+        q: "<p class='q'>Where did Black Panther gain his degree in Physics from?</p>",
+            a: "<p class='answer'>UT Austin</p>",
+            b: "<p class='answer'>Oxford</p>",
+            c: "<p class='answer'>Stanford</p>",
+            d: "<p class='answer'>Cambridge</p>",
+            correct: "<p class='correct'>b</p>"
     },
     {
         name: "q1",
-        q: "<p class='q'>What is the name given to the subatomic particles, that when ingested can turn a person into Ant - Man ?</p>",
-            A: "<p class='answer'>Puny Particles</p>",
-            B: "<p class='answer'>Pym Particles</p>",
-            C: "<p class='answer'>Antaon Higgs</p>",
-            D: "<p class='answer'>Anston</p>",
-            correct: "a"
+        q: "<p class='q'>What is the name given to the subatomic particles, that when ingested can turn a person into Ant-Man?</p>",
+            a: "<p class='answer'>Puny Particles</p>",
+            b: "<p class='answer'>Pym Particles</p>",
+            c: "<p class='answer'>Antaon Higgs</p>",
+            d: "<p class='answer'>Anston</p>",
+            correct: "<p class='correct'>b</p>"
     },
     {
         name: "q1",
         q: "<p class='q'>What is Black Widows real name?</p>",
-            A: "<p class='answer'>Natasha Romanova</p>",
-            B: "<p class='answer'>Natalie Rushman</p>",
-            C: "<p class='answer'>Natasha Romanoff</p>",
-            D: "<p class='answer'>Natalie Romanova</p>",
-            correct: "d"
+            a: "<p class='answer'>Natasha Romanova</p>",
+            b: "<p class='answer'>Natalie Rushman</p>",
+            c: "<p class='answer'>Natasha Romanoff</p>",
+            d: "<p class='answer'>Natalie Romanova</p>",
+            correct: "<p class='correct'>a</p>"
     },
     {
         name: "q1",
-        q: "<p class='q'>Which Villain believes that Deadpool stole the identity Wade Wilson after killing their wife?</p>",
-            A: "<p class='answer'>River</p>",
-            B: "<p class='answer'>Agent X</p>",
-            C: "<p class='answer'>Juggernaut</p>",
-            D: "<p class='answer'>T-Ray</p>",
-            correct: "c"
+        q: "<p class='q'>What is Ghost Rider know as?</p>",
+            a: "<p class='answer'>The Guardian Devil</p>",
+            b: "<p class='answer'>The Spirit of Hate</p>",
+            c: "<p class='answer'>The Spirit of Vengeance</p>",
+            d: "<p class='answer'>The Skull</p>",
+            correct: "<p class='correct'>c</p>"
     },
     {
         name: "q1",
-        q: "<p class='q'>Which character from outside of Marvel did Wolverine have a battle with?</p>",
-            A: "<p class='answer'>Red Power Ranger</p>",
-            B: "<p class='answer'>Mr. Incredible</p>",
-            C: "<p class='answer'>Superman</p>",
-            D: "<p class='answer'>Spock</p>",
-            correct: "c"
+        q: "<p class='q'>Thor has two war goats to pull his chariot. What are their names?</p>",
+            a: "<p class='answer'>Balder and Hermod</p>",
+            b: "<p class='answer'>Thunder and Lightning</p>",
+            c: "<p class='answer'>Ask and Embla</p>",
+            d: "<p class='answer'>Toothgrinder and Toothgnasher</p>",
+            correct: "<p class='correct'>d</p>"
     },
     {
         name: "q1",
-        q: "<p class='q'>What type of spider bit Peter Parker, turning him into Spiderman?</p>",
-            A: "<p class='answer'>Common House Spider</p>",
-            B: "<p class='answer'>Daddy Long Legs</p>",
-            C: "<p class='answer'>Black Widow</p>",
-            D: "<p class='answer'>Tarantula</p>",
-            correct: "c"
+        q: "<p class='q'>The Fantastic Four have the headquarters in what building?</p>",
+            a: "<p class='answer'>Star Tower</p>",
+            b: "<p class='answer'>Fantastic Headquarters</p>",
+            c: "<p class='answer'>Xavier Building</p>",
+            d: "<p class='answer'>Baxter Building</p>",
+            correct: "<p class='correct'>c</p>"
     },
     {
         name: "q1",
-        q: "<p class='q'>Who created Ultron?</p>",
-            A: "<p class='answer'>Tony Stark</p>",
-            B: "<p class='answer'>Arnim Zola</p>",
-            C: "<p class='answer'>Doctor Victor Von Doom</p>",
-            D: "<p class='answer'>Black Widow</p>",
-            correct: "a"
+        q: "<p class='q'>What was Chen Lu's profession before becoming Radioactive Man?</p>",
+            a: "<p class='answer'>A spy</p>",
+            b: "<p class='answer'>A nuclear physicist</p>",
+            c: "<p class='answer'>A soldier</p>",
+            d: "<p class='answer'>A pilot</p>",
+            correct: "<p class='correct'>b</p>"
     },
     {
         name: "q1",
-        q: "<p class='q'>What is Deadpools real name?</p>",
-            A: "<p class='answer'>Billy Brown</p>",
-            B: "<p class='answer'>James Jones</p>",
-            C: "<p class='answer'>Wade Wilson</p>",
-            D: "<p class='answer'>Sean Smith</p>",
-            correct: "c"
+        q: "<p class='q'>Who did Dr.Doom go to college with?</p>",
+            a: "<p class='answer'>Tony Stark</p>",
+            b: "<p class='answer'>Peter Parker</p>",
+            c: "<p class='answer'>Reed Richards</p>",
+            d: "<p class='answer'>Bruce Banner</p>",
+            correct: "<p class='correct'>c</p>"
     }
 ];
 
@@ -114,11 +114,12 @@ $(document).ready(function () {
         $("#start").html(" ");
     });
 
-    $(document).on("click", ".answer", function () {
-        selectedAnswer = $(this).text();
-        console.log(selectedAnswer);
-        checkAnswer();
-    });
+});
+
+$(document).on("click", ".answer", function () {
+    selectedAnswer = $(this).text();
+    console.log(selectedAnswer);
+    checkAnswer();
 });
 
 
@@ -136,7 +137,6 @@ function pickAquestion() {
     correct = questions[i].correct;
     if (i === questions.length - 1) {
         scoreGame();
-
 
 
     }

@@ -22,13 +22,13 @@ p {
     font-family: 'Londrina Solid', cursive;
     color: #7B7D7D;
     font-size:25px;
-    background-color: #1B2631
+    background-color: #1B2631;
 }
 
 h3 {
     font-family: 'Londrina Solid', cursive;
-    color:#1B2631
-    font-size: 15px;
+    color:#1B2631;
+    font-size: 25px;
 }
 
 .q {
@@ -42,7 +42,7 @@ h3 {
      color: #7B7D7D;
      font-family: 'Londrina Solid',
      cursive;
-     font-size: 15px
+     font-size: 15px;
 }
 
 #timer {
